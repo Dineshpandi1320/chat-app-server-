@@ -9,9 +9,6 @@ app.use(cors());
 const PORT = 3002;
 const server = http.createServer(app);
 
-
-
-
 const io = new Server (server,{
     cors: {
         origin:"*",
